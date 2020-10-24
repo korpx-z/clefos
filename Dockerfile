@@ -1,5 +1,6 @@
 FROM 	scratch
 
+USER    root
 ADD 	clefos-7-docker.tar.xz /
 
 LABEL 	name="ClefOS Base Image" \
