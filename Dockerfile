@@ -1,8 +1,6 @@
 FROM 	scratch
 
-COPY 	clefos-7-docker.tar.xz /
-
-RUN tar -xf clefos-7-docker.tar.xz
+ADD 	clefos-7-docker.tar.xz /
 
 LABEL 	name="ClefOS Base Image" \
 	vendor="ClefOS" \
