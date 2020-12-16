@@ -5,7 +5,7 @@ services:
 env:
   global:
     - BUILD_DIR="$PWD/"
-    - REPO="quay.io/ibmz/clefos"
+    - REPO="quay.io/ibm/clefos"
     - TAG="$REPO:7.4.1708"
 before_script: 
   - cd $BUILD_DIR && chmod +x *
